@@ -1,0 +1,106 @@
+body {
+	font-family: "Josefin Sans", sans-serif;
+	color: #333;
+	font-weight: 400;
+	overflow-y: scroll;
+}
+
+a:link,
+a:visited,
+a:active {
+	color: #999;
+	font-size: 1.2em;
+}
+
+a:hover {
+	color: #111;
+}
+
+img,
+embed,
+object,
+video,
+picture {
+	max-width: 100%;
+	transition-duration: 0.5s;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	text-transform: uppercase;
+	margin: 10px 0 15px;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 300;
+	
+}
+
+h3 {
+	font-size: 40px;
+	text-transform: capitalize;
+	color: #999;
+	font-weight: 300;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+.row {
+	text-align: center;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+#container2 {
+	width: 50%;
+	}
+
+/*
+Header code
+*/
+
+header {
+	border-bottom-style: solid;
+	border-color: #bbb;
+}
+
+.logo_pos {
+	text-align: left;
+	margin: auto;
+	width: 120px;
+}
+
+.logo {
+	height: 100px;
+}
+
+.title {
+	text-align: right;
+	width: 70%;
+	width: calc(100% - 120px);
+	width: -moz-calc(100% - 120px);
+	width: -webkit-calc(100% - 120px);
+}
+
+.work {
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
